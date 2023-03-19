@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wasi U Rehman</title>
+	<title>Freelancer Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h1>Welcome</h1>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="banner">
+		<h1>Welcome to my Portfolio</h1>
+		<p>I am a freelance web developer</p>
+	</section>
+
+	<section id="about">
+		<h2>About Me</h2>
+		<p>I have been working as a web developer for 5 years. I specialize in HTML, CSS, JavaScript, and PHP.</p>
+	</section>
+
+	<section id="portfolio">
+		<h2>Portfolio</h2>
+		<div class="project">
+			<img src="project1.jpg" alt="Project 1">
+			<h3>Project 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, est eget consequat lobortis.</p>
+			<a href="#">View Project</a>
+		</div>
+		<div class="project">
+			<img src="project2.jpg" alt="Project 2">
+			<h3>Project 2</h3>
+			<p>Phasellus sodales tellus ut purus feugiat, sed rhoncus lacus congue. Aliquam semper nunc nec eros.</p>
+			<a href="#">View Project</a>
+		</div>
+		<div class="project">
+			<img src="project3.jpg" alt="Project 3">
+			<h3>Project 3</h3>
+			<p>Vivamus lacinia mi a consectetur bibendum. Proin vel velit malesuada, faucibus libero vel, tempus mauris.</p>
+			<a href="#">View Project</a>
+		</div>
+	</section>
+
+	<section id="contact">
+		<h2>Contact Me</h2>
+		<form action="#" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			<input type="submit" value="Send">
+		</form>
+	</section>
+
 </body>
 </html>
